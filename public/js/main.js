@@ -12,7 +12,7 @@ function onSubmit(e) {
     if (prompt === '') {
       alert('Please add some text');
       return;
-    }else if(prompt === 'RITHIK' || prompt === 'RITHIK K' || prompt === 'RITHIK ' || prompt === 'RITHIK K '){
+    }else if(prompt.includes("RITHIK")){
     if(size == 'small'){
       document.querySelector('#image').src = 'img256.jpg';
       return;
