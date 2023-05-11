@@ -126,7 +126,7 @@ img {
     line-height: 1.5;
     color: #333;
     background: #f4f4f4;
-    overflow: hidden;
+    overflow-x: hidden;
   }
   .navbar a {
     color: #fff;
